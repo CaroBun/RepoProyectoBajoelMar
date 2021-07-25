@@ -1,0 +1,359 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Estilos GENERALES */
+
+body {
+  background-color: #E6E6E6;
+  font-family: Raleway, sans-serif;
+} 
+header {
+  background-color: #04CDD1;
+  margin-bottom: 40px;
+  border-bottom: solid 12px #D4D4D4;
+  width: 100%;
+}
+.bordeLogo {
+  margin-left: 200px;
+  margin-top: 40px;
+}
+.gradienteLineal {
+  background-image:linear-gradient(to bottom right, #048BA2, #04BBC6, #04CDD1);
+}
+nav {
+  text-align: right;
+  padding-right: 200px;
+  padding-bottom: 10px;
+}
+.menuPrincipal {
+  display: inline-block;
+  padding-right: 15px;
+}
+.espacioSubmenu{
+  padding-top: 7px;
+}
+.nav-arriba {
+  position: relative;
+  top: -100px;
+  margin-right: -185px;
+}
+nav ul li a {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+nav ul li a:hover {
+  background-color: #6BE0E2;
+  transition: .4s;
+  padding: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+
+}
+.submenu {
+  display: none;
+  position: absolute;
+  list-style-type: none;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
+.submenu li a {
+  font-weight: bold;
+  font-size: 16px;
+}
+nav ul li:hover .submenu {
+  display: block;
+}
+.linkPosition {
+  display: flex;
+  justify-content: flex-end;
+}
+.linksRedes {
+  display: inline-flex;
+  padding-right: 20px;
+  position: absolute;
+  top: -40px;
+}
+.linksRedes li {
+  padding: 60px 5px;
+}
+.marcadorH3 {
+  color: white;
+  font-size: 15px;
+  background-color: #04CDD1;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-1.2deg)
+}
+h4 {
+  font-weight: normal;
+  padding-top: 4px;
+}
+.sinSubrayado {
+  text-decoration: none;
+}
+.titulosPrincipales {
+  font-style: normal ;
+  font-family: Raleway, sans-serif;
+  font-weight: bold ;
+  font-size: 42px;
+  padding-bottom: 15px;
+}
+.parrafosPrincipales {
+  font-size: 20px;
+  width: 650px;
+  line-height: 150%;
+}
+.negrita {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+footer {
+  margin-top: 20px;
+  border-top: solid 8px #D4D4D4;
+  background-color: #04CDD1;
+}
+footer p {
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 14px;
+}
+footer ul {
+  font-weight: bold;
+  text-align: center;
+  background-color: #04CDD1;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+footer ul li a {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+footer ul li a:hover {
+  background-color: #6BE0E2;
+  transition: .4s;
+  padding: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+
+
+/* Estilos HOME */
+
+h1 {
+  font-weight: bold;
+  font-size: 20px;
+}
+main img {
+  border-radius: 20px;
+}
+
+
+/* Estilos PRODUCTOS */
+
+.tipologiasProductos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: left;
+  align-items: flex-start;
+}
+.tipologiasProductos article {
+  margin-bottom: 20px;
+  width: 40%;
+}
+.tipologiasProductos article ul {
+  background-color: #E1E1E1;
+  width: auto;
+  margin: 5px 30px 0 0;
+  padding: 2px 10px 12px 10px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 4px  #BEBEBE;
+}
+.tipologiasProductos article ul li {
+  list-style-type: none;
+  margin-top: 10px;
+}
+.tipologiasProductos article ul li a {
+  text-decoration: none;
+}
+.marcadorProductos {
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #04CDD1;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-1.2deg)
+}
+.marcadorProductos:hover {
+  color: white;
+  font-size: 23px;
+  background-color: #04CDD1;
+  display: inline-block;
+  padding: 3px;
+  border-radius: 3px;
+  transform: rotate(1.2deg)
+}
+.formatoTabla {
+  width: 700px;
+  padding-bottom: 20px;
+}
+.tituloTabla {
+  font-weight: bold;
+  text-indent: 15%;
+  padding-top: 15px;
+}
+.fondoTabla {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 10%;
+  padding: 12px;
+  background-image:linear-gradient(to bottom right, #048BA2, #04BBC6, #04CDD1)
+}
+thead th {
+color: white;
+}
+.listaOrdenadaCirculitos {
+  list-style: disc inside;
+  width: 300px;
+}
+
+
+
+/* Estilos VIANDAS */
+
+.sinVinetas {
+  list-style-type: none;
+}
+
+/* Estilos RABAS */
+
+.videoRabas {
+  padding-bottom: 30px;
+}
+
+
+
+/* Estilos RECETIPS */
+
+.contenedorRecetips {
+  width: 900px;
+  padding-bottom: 20px;
+}
+.articulosRecetips {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-left: 0px;
+  flex-wrap: wrap;
+}
+.articulosRecetips article {
+  display: inline-block;
+  justify-content: left;
+  background-color: #E1E1E1;
+  width: 40%;
+  margin: 30px 30px 0 0;
+  padding: 10px 20px 12px 20px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 4px  #BEBEBE;
+  text-align: justify;
+}
+.articulosRecetips article p {
+  padding-top: 10px;
+  font-size: 16px;
+  line-height: 160%;
+}
+.articulosRecetips article ol {
+  padding-left: 10px;
+  padding-top: 10px;
+
+}
+main section article ul {
+  padding-top: 10px;
+}
+main section article ol li {
+  padding-top: 10px;
+}
+
+
+
+/* Estilos CONTACTO */
+
+main iframe {
+  border-radius: 20px;
+}
+.checkAlLado {
+  display: inline-block;
+}
+.h3Form {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.marginLabel {
+  margin-top: 15px;
+  font-weight: bold;
+}
+.marginInput {
+  margin-top: 5px ;
+  margin-bottom: 20px;
+}
+.centrado {
+  text-align: center;
+}
+/* .contenedorContacto {
+  width: 900px;
+  padding-left: 450px;
+  padding-bottom: 20px;
+} */
+
+
+/* MEDIA QUERIES */
+
+/* TABLET */
+@media only screen and (max-width: 900px) and (min-width: 415px) {
+
+  .linksRedes {
+    display: inline-flex;
+    padding-right: 20px;
+    position: absolute;
+    top: -40px;
+    }
+  .linksRedes li {
+    padding: 60px 5px;
+  }
+  nav ul li a {
+    display: none; 
+    }
+  
+}
+
+/* DESKTOP AND LAPTOPS */
+@media only screen and (min-width : 416px) {
+  
+  .linksRedes {
+    display: inline-flex;
+    padding-right: 20px;
+    position: absolute;
+    top: -40px;
+  }
+  /* .linksRedes li {
+    padding: 70px 5px;
+  } */
+  
+  }
+
+
