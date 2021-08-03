@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #E6E6E6;
+  font-family: Raleway, sans-serif; }
+  body div .gridContainer {
+    display: grid;
+    grid-template-areas: "encabezado menu" "home home" "gifHome gifHome " "pie pie";
+    grid-template-columns: 2fr;
+    grid-template-rows: 4fr; }
+  body header {
+    grid-area: encabezado;
+    background-color: #04CDD1;
+    margin-bottom: 40px;
+    border-bottom: solid 10px #D4D4D4;
+    width: 100%; }
+    body header .gradienteLineal {
+      background-image: linear-gradient(to bottom right, #048BA2, #04BBC6, #04CDD1); }
+    body header a img .bordeLogo {
+      margin-left: 200px;
+      margin-top: 40px; }
+    body header nav {
+      grid-area: menu;
+      text-align: right;
+      padding-right: 200px;
+      padding-bottom: 10px; }
+      body header nav .nav-arriba {
+        position: relative;
+        top: -100px; }
+        body header nav .nav-arriba ul li .menuPrincipal {
+          display: inline-block;
+          padding-right: 15px; }
+          body header nav .nav-arriba ul li .menuPrincipal a {
+            font-weight: bold;
+            text-decoration: none;
+            color: black;
+            font-size: 20px; }
+          body header nav .nav-arriba ul li .menuPrincipal ul .submenu {
+            display: none;
+            position: absolute;
+            list-style-type: none;
+            width: 100px;
+            height: 100px;
+            text-align: center; }
+            body header nav .nav-arriba ul li .menuPrincipal ul .submenu li .espacioSubmenu {
+              padding-top: 7px; }
+              body header nav .nav-arriba ul li .menuPrincipal ul .submenu li .espacioSubmenu a {
+                font-weight: bold;
+                font-size: 16px; }
+                body header nav .nav-arriba ul li .menuPrincipal ul .submenu li .espacioSubmenu a:hover {
+                  background-color: #6BE0E2;
+                  transition: .4s;
+                  padding: 5%;
+                  border-radius: 5px; }
+                  body header nav .nav-arriba ul li .menuPrincipal ul .submenu li .espacioSubmenu a:hover .submenu {
+                    display: block; }
+    body header div .linkPosition {
+      display: flex;
+      justify-content: flex-end; }
+    body header div ul .sinVinetas {
+      list-style-type: none; }
+    body header div ul .linksRedes {
+      display: inline-flex;
+      padding-right: 210px;
+      position: absolute;
+      top: -5px; }
+    body header div ul li {
+      padding: 70px 5px; }
+
+section .contenedorHome {
+  grid-area: home;
+  padding-left: 310px; }
+
+section h2 .titulosPrincipales {
+  font-style: normal;
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 42px;
+  padding-bottom: 15px; }
+
+section h1 {
+  font-weight: bold;
+  font-size: 20px; }
+
+section p .parrafosPrincipales {
+  font-size: 20px;
+  width: 650px;
+  line-height: 150%; }
+
+main .gifHome {
+  grid-area: gifHome;
+  justify-self: center;
+  margin-top: 30px; }
+
+footer {
+  grid-area: pie;
+  background-color: #04CDD1;
+  text-align: center;
+  margin-top: 40px;
+  border-top: solid 8px #D4D4D4; }
+  footer ul {
+    font-weight: bold;
+    text-align: center;
+    background-color: #04CDD1;
+    padding-top: 20px;
+    padding-bottom: 10px; }
+    footer ul .sinVinetas {
+      list-style-type: none; }
+    footer ul li a {
+      font-weight: bold;
+      text-decoration: none;
+      color: black;
+      font-size: 20px; }
+      footer ul li a .sinSubrayado {
+        text-decoration: none; }
+  footer p {
+    background-color: #04CDD1;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 14px; }

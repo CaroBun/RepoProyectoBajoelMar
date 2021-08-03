@@ -1,0 +1,17 @@
+{
+  "name": "desafio_clase16_4taentregaproyecto_carolinabuncuga",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/hojasass.scss css/estilos.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "Carolina Buncuga",
+  "license": "ISC",
+  "description": "Sitio web de Bajo el Mar, Pescados y Mariscos",
+  "devDependencies": {
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.12"
+  }
+}
